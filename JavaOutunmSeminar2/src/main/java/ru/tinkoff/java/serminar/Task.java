@@ -12,6 +12,23 @@ public class Task {
     private LocalDateTime dateCreated;
     private LocalDateTime deadline;
 
+    public Task() {
+        this.id = UUID.randomUUID();
+        this.dateCreated = LocalDateTime.now();
+    }
+
+    public Task(String summary, Integer priority, String user) {
+        this();
+        this.summary = summary;
+        this.priority = priority;
+        this.user = user;
+        this.status = TaskStatus.TODO;
+    }
+
+    public Task(String summary, String user) {
+        this(summary, 0, user);
+    }
+
     public UUID getId() {
         return id;
     }

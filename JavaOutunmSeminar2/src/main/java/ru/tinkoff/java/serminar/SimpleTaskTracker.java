@@ -34,7 +34,8 @@ public class SimpleTaskTracker implements TaskTracker {
 
     @Override
     public List<Task> getTodayTasks() {
-        return tasks.values().stream().filter(task -> DateUtil.isSameDay(task.getDeadline(), LocalDateTime.now())).collect(Collectors.toList());
+        return tasks.values().stream()
+                .filter(task -> DateUtil.isSameDay(task.getDeadline(), LocalDateTime.now())).collect(Collectors.toList());
     }
 
     @Override
@@ -46,8 +47,7 @@ public class SimpleTaskTracker implements TaskTracker {
     public List<Task> getPriorityTasks() {
         return tasks.values()
             .stream()
-            .sorted(Comparator.comparing(Task::getPriority))
-            .toList();
+            .sorted(Comparator.comparing(Task::getPriority)).collect(Collectors.toList());
     }
 
     @Override
@@ -59,8 +59,11 @@ public class SimpleTaskTracker implements TaskTracker {
 
     @Override
     public Map<TaskStatus, List<Task>> getStatusBoard() {
-        return tasks.values()
-            .stream()
-            .collect(Collectors.groupingBy(Task::getStatus));
+        Map<TaskStatus, List<Task>> groupedTasks = tasks.values()
+                .stream()
+                .collect(Collectors.groupingBy(Task::getStatus));
+        return groupedTasks.keySet().stream()
+                .collect(Collectors.toMap(k -> k, v -> groupedTasks.get(v).stream().sorted().collect(Collectors.toList())));
+
     }
 }

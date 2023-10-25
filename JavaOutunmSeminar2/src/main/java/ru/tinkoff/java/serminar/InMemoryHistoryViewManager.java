@@ -16,6 +16,6 @@ public class InMemoryHistoryViewManager<T> implements HistoryViewManager<T> {
 
     @Override
     public List<T> getViewHistory() {
-        return new ArrayList<>(history);
+        return List.copyOf(history);
     }
 }

@@ -4,7 +4,7 @@ import java.util.List;
 
 public interface HistoryViewManager<T> {
 
-    void addView(T uuid);
+    void addView(T entity);
 
     List<T> getViewHistory();
 
