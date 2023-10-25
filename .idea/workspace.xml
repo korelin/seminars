@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="80631f1c-3557-47e0-adef-ef7e8aa81cfc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/JavaOutunmSeminar2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaOutunmSeminar2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaOutunmSeminar2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaOutunmSeminar2/JavaOtumnSeminar2.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaOutunmSeminar2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaOutunmSeminar2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaOutunmSeminar2/src/main/java/ru/tinkoff/java/serminar/CommandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaOutunmSeminar2/src/main/java/ru/tinkoff/java/serminar/CommandLineParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaOutunmSeminar2/src/main/java/ru/tinkoff/java/serminar/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaOutunmSeminar2/src/main/java/ru/tinkoff/java/serminar/HistoryViewManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaOutunmSeminar2/src/main/java/ru/tinkoff/java/serminar/InMemoryHistoryViewManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaOutunmSeminar2/src/main/java/ru/tinkoff/java/serminar/IndexedTaskTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaOutunmSeminar2/src/main/java/ru/tinkoff/java/serminar/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaOutunmSeminar2/src/main/java/ru/tinkoff/java/serminar/SimpleTaskTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaOutunmSeminar2/src/main/java/ru/tinkoff/java/serminar/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaOutunmSeminar2/src/main/java/ru/tinkoff/java/serminar/TaskStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaOutunmSeminar2/src/main/java/ru/tinkoff/java/serminar/TaskTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOutunmSeminar1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bad-game-code/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOutunmSeminar1/bad-game-code/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bad-game-code/src/main/java/org/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOutunmSeminar1/bad-game-code/src/main/java/org/game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bad-game-code/src/main/java/org/game/GameRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOutunmSeminar1/bad-game-code/src/main/java/org/game/GameRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-game-code/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOutunmSeminar1/good-game-code/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-game-code/src/main/java/org/game/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOutunmSeminar1/good-game-code/src/main/java/org/game/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-game-code/src/main/java/org/game/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOutunmSeminar1/good-game-code/src/main/java/org/game/Dice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-game-code/src/main/java/org/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOutunmSeminar1/good-game-code/src/main/java/org/game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-game-code/src/main/java/org/game/GameRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOutunmSeminar1/good-game-code/src/main/java/org/game/GameRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-game-code/src/main/java/org/game/Prison.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOutunmSeminar1/good-game-code/src/main/java/org/game/Prison.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-game-code/src/main/java/org/game/WinnerChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOutunmSeminar1/good-game-code/src/main/java/org/game/WinnerChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-game-code/src/main/java/org/game/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOutunmSeminar1/good-game-code/src/main/java/org/game/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-game-code/src/main/java/org/game/player/PlayersProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOutunmSeminar1/good-game-code/src/main/java/org/game/player/PlayersProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-game-code/src/main/java/org/game/question/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOutunmSeminar1/good-game-code/src/main/java/org/game/question/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-game-code/src/main/java/org/game/question/QuestionCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOutunmSeminar1/good-game-code/src/main/java/org/game/question/QuestionCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-game-code/src/main/java/org/game/question/generation/PopQuestionStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOutunmSeminar1/good-game-code/src/main/java/org/game/question/generation/PopQuestionStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-game-code/src/main/java/org/game/question/generation/QuestionGenerationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOutunmSeminar1/good-game-code/src/main/java/org/game/question/generation/QuestionGenerationStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-game-code/src/main/java/org/game/question/generation/RockQuestionStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOutunmSeminar1/good-game-code/src/main/java/org/game/question/generation/RockQuestionStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-game-code/src/main/java/org/game/question/generation/ScienceQuestionStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOutunmSeminar1/good-game-code/src/main/java/org/game/question/generation/ScienceQuestionStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-game-code/src/main/java/org/game/question/generation/SportsQuestionStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOutunmSeminar1/good-game-code/src/main/java/org/game/question/generation/SportsQuestionStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOutunmSeminar1/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2XFIru3GX7VDSZMzQkRHA6ahimt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80631f1c-3557-47e0-adef-ef7e8aa81cfc" name="Changes" comment="" />
+      <created>1698218602781</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698218602781</updated>
+    </task>
+    <servers />
+  </component>
+</project>
