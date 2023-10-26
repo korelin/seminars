@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ffe784f-3758-4001-9cc8-fb09c96d0084" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/tinkoff/java/serminar/Commands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tinkoff/java/serminar/CommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tinkoff/java/serminar/CommandHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tinkoff/java/serminar/CommandLineParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tinkoff/java/serminar/CommandLineParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tinkoff/java/serminar/HistoryViewManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tinkoff/java/serminar/HistoryViewManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tinkoff/java/serminar/InMemoryHistoryViewManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tinkoff/java/serminar/InMemoryHistoryViewManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/tinkoff/java/serminar/SimpleTaskTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tinkoff/java/serminar/SimpleTaskTracker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tinkoff/java/serminar/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tinkoff/java/serminar/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tinkoff/java/serminar/TaskStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tinkoff/java/serminar/TaskStatus.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

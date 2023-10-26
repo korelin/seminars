@@ -59,11 +59,9 @@ public class SimpleTaskTracker implements TaskTracker {
 
     @Override
     public Map<TaskStatus, List<Task>> getStatusBoard() {
-        Map<TaskStatus, List<Task>> groupedTasks = tasks.values()
-                .stream()
-                .collect(Collectors.groupingBy(Task::getStatus));
-        return groupedTasks.keySet().stream()
-                .collect(Collectors.toMap(k -> k, v -> groupedTasks.get(v).stream().sorted().collect(Collectors.toList())));
-
+        return tasks.values()
+                .stream().collect(Collectors.groupingBy(Task::getStatus)).entrySet()
+                .stream().collect(Collectors.toMap(Map.Entry::getKey, entry ->
+                        entry.getValue().stream().sorted(Comparator.comparing(Task::getPriority)).collect(Collectors.toList())));
     }
 }
